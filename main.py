@@ -9,7 +9,7 @@ xs = [[2.0, 3.0, -1.0],
 
 ys = [0.0, 1.0, 1.0, 0.0]  
 
-# Initialize the MLP with input and output sizes
+
 n = MLP(3, [4, 4, 1])
 
 # Training loop
