@@ -71,7 +71,7 @@ class Value:
         for v in reversed(topo):
             v._backward()
     
-    def __sub__(self, other): # self - other
+    def __sub__(self, other): 
         return self + (-other)
 
     def __rsub__(self, other): # other - self
