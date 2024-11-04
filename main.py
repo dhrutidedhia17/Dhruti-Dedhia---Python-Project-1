@@ -7,7 +7,7 @@ xs = [[2.0, 3.0, -1.0],
       [0.5, 1.0, 1.0], 
       [1.0, 1.0, -1.0]]  # Input data
 
-ys = [0.0, 1.0, 1.0, 0.0]  # Target outputs
+ys = [0.0, 1.0, 1.0, 0.0]  
 
 # Initialize the MLP with input and output sizes
 n = MLP(3, [4, 4, 1])
