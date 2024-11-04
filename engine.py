@@ -86,7 +86,7 @@ class Value:
     def __radd__(self, other): # other + self
         return self + other
     
-    def __truediv__(self, other): # self / other
+    def __truediv__(self, other):
         return self * other**-1
 
     def __rtruediv__(self, other): # other / self
